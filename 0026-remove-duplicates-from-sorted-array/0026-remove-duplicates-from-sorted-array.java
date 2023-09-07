@@ -10,8 +10,7 @@ class Solution {
         
         for (int i = 1; i < n; i++) {
             if (nums[i] != nums[i - 1]) {
-                nums[count] = nums[i];
-                count++;
+                nums[count++] = nums[i];
             }
         }
         
