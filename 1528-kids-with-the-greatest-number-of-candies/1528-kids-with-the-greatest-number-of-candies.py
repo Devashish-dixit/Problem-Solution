@@ -10,6 +10,4 @@ class Solution(object):
         for i in range(len(candies)):
             if candies[i] + extraCandies >= n :
                 res[i] = True
-            else:
-                res[i] = False
         return res
